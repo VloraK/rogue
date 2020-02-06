@@ -1,0 +1,167 @@
+@font-face {
+font-family: 'Wisdom Script Regular';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/Wisdom-Script-AJ.woff') format('woff');
+}
+
+/***** BASE STYLES *****/
+
+
+
+body {
+
+  color:#000000;
+  font-family: 'Montserrat', sans-serif;
+  margin:0px;
+  padding: 0px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 370px;
+  float: left;
+
+}
+
+/***** HEADER *****/
+
+header .full-width {
+      height:99px;
+      padding-top: 40px;
+      border-bottom: 4px solid #77a466;
+    }
+
+
+
+header h1 {
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 23px;
+
+}
+
+.rogue-title {
+  color:#77a466;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+
+
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:14px;
+    line-height: 23px;
+    font-weight: 700;
+    color:#77a466;
+    padding-left: 20px;
+}
+
+/****** Hero SECTION *****/
+
+
+#hero img {
+
+  border-bottom: 4px solid #77a466;
+
+  }
+
+#hero h2 {
+  color:#77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+
+}
+
+#hero p {
+
+font-size: 16px;
+line-height: 25px;
+}
+
+/*****Company-info SECTION*****/
+
+#company-info .full-width {
+border-top: 0.5px solid #dedbdc;
+border-bottom: 0.5px solid #dedbdc;
+height: 185px;
+
+}
+
+#company-info h4 {
+  color:black;
+  text-transform: uppercase;
+
+}
+ .menu ul {
+   padding: 0px;
+   margin: 0px;
+ }
+
+.menu ul li{
+  list-style-type: none;
+  margin-bottom: 20px;
+
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin-bottom:  50px;
+  font-size: 16px;
+  text-align: 18px;
+  color:#77a466;
+}
+
+.Reviews {
+
+  font-size: 16px;
+  line-height: 21px;
+  border-left:0.5px solid #dedbdc;
+  border-right:0.5px solid #dedbdc;
+  padding: 0px 20px;
+}
+
+.Contact {
+  padding-left: 40px;
+}
+
+/*******Footer*******/
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+ .fresh {
+  font-family: 'Wisdom Script';
+  font-style: italic;
+  color:#77a466;
+  font-size: 16px;
+  text-transform: lowercase;
+
+}
